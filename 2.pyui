@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {432, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "9FE330FC-305A-421F-9901-379523471B9D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "enter time in which it took the ball to hit the ground",
+          "name" : "",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 40}, {432, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "99A3FC53-D1EE-45C2-BFE1-3AE9685318DB",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "time_textfield",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 97}, {432, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "1C9183A8-00AC-4384-813F-281E5BD22142",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 137}, {432, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E5FCBD3F-02A0-4CC1-BF66-CB3E3BC8B4E4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
